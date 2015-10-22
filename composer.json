@@ -1,0 +1,18 @@
+{
+  "name": "yii2-editable-server",
+  "type": "package",
+  "description": "Server-side for kartik-v/yii2-editable",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.0",
+    "kartik-v/yii2-editable": "1.6",
+    "kartik-v/yii2-grid": "2.7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "spartaksun\\Yii2\\Editable\\": "/"
+    }
+  }
+}
